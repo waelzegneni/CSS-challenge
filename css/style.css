@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222629;
+}
+
+.nav-container{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 2px black;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 10;
+
+}
+
+.navbar{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: max-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+    
+}
+
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+}
+
+
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color :white;
+    transition: 1s;
+
+}
+
+.nav-item a:hover{
+    color: violet;
+    transition: 1s;
+
+}
+
+.img-fix{
+    color: rgb(49, 17, 49);
+    top: 0.1px;
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-right:40px;
+    padding-left: 40px;
+}
+
+.form-position{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    position: relative;
+    left:  -680px;
+    padding-top: 100px;
+}
+
+.label-output label,output {
+    display: block;
+}
+
+.label-output label{
+    color:#FFD700;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.label-output input{
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.label-output{
+    margin-right:50px;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+legend{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-left:40px;
+}
+
+fieldset{
+    border:3px solid rgb(82, 87, 82);
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:60px;	
+    margin-bottom: 100px;
+    position: absolute;
+    left: 500px;
+    box-shadow: 1px 1px 4px rgb(112, 15, 15);
+    width: 400px;
+    height: 500px;
+}
+
+.textarea{
+    border-radius: 15px;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 120px;
+    border-radius: 15px;
+    background: #FFD700;
+    outline: none;
+    box-shadow : 1px 1px 4px rgb(48, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-image: radial-gradient(gold,rgb(20, 12, 12))
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header right right'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #222629;
+    padding: 10px;
+    height: 550px;
+    margin-top: 200px;
+    padding-top: 80px;
+    max-width: 100hw;
+    }
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 
+
+}
+
+.item1{
+grid-area: header;
+background-image: url('../res/sagharbor10.jpg');
+background-size: 1330px 270px;
+}
+
+.item2{
+grid-area: menu;
+background-image: url('../res/fitness-men-lift-gym-tank-top-men-vest-stringer.jpg');
+background-size: 200px 350px;
+}
+
+
+.item3{
+grid-area: main ;
+background-image: url(../res/suplementos-png-.png);
+background-size: 650px 180px;
+}
+.item4{
+grid-area: right;
+background-image: url(../res/thumb2-bodybuilding-barbell-biceps-exercises-fitness.jpg);
+background-size: 450px 365px;
+}
+.item5{
+grid-area: footer;
+background-image: url(../res/Dumbbells-gym_3840x1200.jpg);
+background-size: 1110px 200px;
+}
+
+.img-fixing{
+   position: absolute;
+  object-fit: cover;
+  left: 10px;
+  
+
+  
+}
+
+
+.container1{
+    position: absolute;
+    left: 100px;
+     margin-top: 150px;
+ 
+ 
+}
+.background1{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(153, 0, 51));
+    height: 300px;
+    width: 600px;
+    padding-top: px;
+    border:none;
+    border-radius: 45px;
+}
+
+.fildset1{
+    border:solid 1px whitesmoke;
+    width: 610px ;
+    height: 315px; 
+    border-radius: 15px;
+    position: relative;
+    left: 10px;
+}
+.format1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.format2{
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' ;
+    margin-top:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    
+}
+
+.background1{
+    transition: 1s;
+}
+
+.fildset1{
+    transition: 1s;
+}
+.background1:hover{
+    border-radius: 70px;
+    transition: 1s;
+
+}
+.fildset1:hover{
+    border-radius: 50px;
+    transition: 1.5s;
+}
+.image2{
+    width: 700px;
+    height: 440px;
+    margin-left: 630px;
+    margin-top: 220px;
+    border-radius: 5px;
+    color: #222629;
+    transition: 0.8s;
+}
+.image2:hover{
+    width: 710px;
+    height: 420px;
+    transition: 0.8s;
+}
+.format2:hover{
+  
+    font-optical-sizing:10px;
+    transition: 2s;
+}
+.image3{
+    width: 100%;
+    height: 750px;
+    box-shadow: 0px 5px  20px rgb(73, 0, 67);
+    filter: blur(1.2px)
+}
+.materials{
+    width: 21%;
+    height: 400px;
+    top: -575px;
+    position: relative;
+    margin-left: 100px;
+    border:solid 2px rgb(82, 2, 55); 
+    border-radius: 20px;
+    
+}
+.transform-materials{
+    transition: 1s;
+    height: 0;
+}
+
+.transform-materials:hover{
+    transform: scale(1.05,1.05);
+    transition: 1s;
+}
+.transform-cloth{
+    transition: 1s;
+    height: 0;
+}
+
+.transform-cloth:hover{
+    transform: scale(1.05,1.05);
+    transition: 1s;
+}
+
+.transform-supps:hover{
+    transform: scale(1.03,1.03);
+    transition: 1s;
+   
+}
+
+.transform-supps{
+    transition: 1s;
+    height: 0;
+}
+
+
+.clothes{
+    width: 21%;
+    height: 400px;
+    position: relative;
+    top: -600px;
+    margin-left: 540px;
+    border:solid 2px rgb(82, 2, 55); 
+    border-radius: 20px;
+}
+.supplements{
+    width: 22%;
+    height: 400px;
+    position: relative;
+    top: -575px;
+    margin-left: 980px;
+    border:solid 2px rgb(82, 2, 55); 
+    border-radius: 20px;
+    
+}
+   
+.formelabel1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(22, 34, 44);
+    padding-left: 78px;
+    margin-top: 10px;
+    font-weight: bolder;
+    padding-left: 50px;
+    text-shadow:  1px 1px 10px rgba(199, 27, 27, 0.8), 0 -4px 30px rgba(255, 255, 255, 0.5); 
+
+}
+.formelabel1:hover{
+    color: rgb(87, 6, 46);
+    font-size: 30px;
+    transition: 0.5s;
+}
+.formelabel4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(22, 34, 44);
+    padding-left: 78px;
+    margin-top: 10px;
+    font-weight: bolder;
+    padding-left: 80px;
+    text-shadow:  1px 1px 10px rgba(199, 27, 27, 0.8), 0 -4px 30px rgba(255, 255, 255, 0.5); 
+}
+
+.formelabel4:hover{
+    color: rgb(87, 6, 46);
+    font-size: 30px;
+    transition: 0.5s;
+}
+.formelabel2{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color:black;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+.trait{
+ border: 2px solid rgb(71, 0, 50);
+ border-radius: 5px;
+ width: 75%;
+ margin-left: 35px;
+ margin-top: 18px;
+}
+.buttomview{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 70%;
+    height: 40px;
+    border: 2px solid rgb(122, 4, 87);
+    background-color:rgb(71, 0, 50);
+    border:solid 1px rgb(211, 181, 201); 
+    border-radius: 5px;
+    
+}
+.view{
+    color: white ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+.buttomview:hover{
+    background-color:rgb(211, 181, 201);
+    border:solid 1px rgb(71, 0, 50); 
+    transition: 1s;
+}
+.view:hover{
+    color: rgb(71, 0, 50);
+}
+
+.bande{
+    display: flex;
+    margin-left: 44px;
+    margin-top: 25px;
+    width: 80%;
+    height:40px;
+}
+.image4{
+    display: left;
+    margin-right: 20px;
+    width:50px;
+    height: 50px;
+}
+
+.section2-position{
+
+}
+
+#section-1{
+    margin-bottom: 200px;
+
+}
+.animationtrait{
+    text-decoration: none;
+  position: relative;
+  webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    padding-bottom: 5px;
+}
+.animationtrait:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: violet;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+    transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+  }
+.animationtrait:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+
+.image4{
+    display: left;
+    margin-right: 20px;
+    width:50px;
+    height: 50px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; 
+}
+.image4:hover {
+    transform:rotate(360deg);
+    -ms-transform:rotate(365deg);
+    -webkit-transform:rotate(365deg);
+}
+
+
+
+.hovering{
+    display:block;
+}
+
+.hover1{
+    width : 0;
+    height: 2px;
+    color: red;
+}
+
+.hovering:hover > hover1{
+    width: 100%;
+    transition: 2s;
+}
+
